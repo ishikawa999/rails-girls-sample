@@ -6,15 +6,8 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "bundle install",
   "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": "rails server"
-  },
+  "postAttachCommand": "",
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "app/views/hello/index.html.erb"
-      ]
-    },
     "vscode": {
       "extensions": [
         "Shopify.ruby-lsp"
